@@ -1,0 +1,12 @@
+Starter =     3    Two of Diamond  Three of Diamond  Four of Diamond   Ace of Diamond  Winner =     3
+Starter =     3     King of Heart     Two of Heart    Five of Heart    Jack of Heart  Winner =     0
+Starter =     0     King of Spade     Two of Spade     Ten of Spade    Five of Spade  Winner =     0
+Starter =     0       Six of Club     Four of Club      Ace of Club    Three of Club  Winner =     2
+Starter =     2      Jack of Club    Seven of Club     King of Club     Ten of Heart  Winner =     2
+Starter =     2   Nine of Diamond    Eight of Club    Queen of Club   Eight of Heart  Winner =     0
+Starter =     0     Nine of Heart    Four of Heart     Ace of Heart   Three of Heart  Winner =     2
+Starter =     2    Ten of Diamond     Nine of Club      Ten of Club     Six of Spade  Winner =     0
+Starter =     0    Queen of Heart  King of Diamond     Six of Heart  Eight of Diamond  Winner =     1
+Starter =     1   Jack of Diamond     Five of Club   Six of Diamond   Seven of Spade  Winner =     0
+Starter =     0   Queen of Diamond   Eight of Spade   Three of Spade  Seven of Diamond  Winner =     0
+Starter =     0     Nine of Spade   Queen of Spade   Seven of Heart  Five of Diamond  Winner =     3

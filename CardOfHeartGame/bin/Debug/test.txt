@@ -1,0 +1,1777 @@
+===============NewPeriod==============
+Player0 MaxScore is: 45
+Player0 Maxfigure is: 25
+
+Player1 MaxScore is: 27
+Player1 Maxfigure is: 15
+
+Player2 MaxScore is: 42
+Player2 Maxfigure is: 25
+
+Prefigure_OK
+	prefigurePlayer = 3
+	prefigureValue = 125
+DrawDownCard
+DrawDownCard
+Mouse Down
+Mouse Down
+	deckNum0
+    Play : 
+    	ind = 47	 Five of Heart
+    	remainInd Index: 11
+    	before Index: 46
+    	after Index: -1
+GetSecondPlayerCard:
+	Player = 0
+GetWinOrPassCard
+	Player = 0
+    GetRemainedCardsNum: 	Player = 0
+    	SuitStarts[0] = 0
+    	SuitNums[0] = 1
+    	SuitStarts[1] = 1
+    	SuitNums[1] = 2
+    	SuitStarts[2] = 3
+    	SuitNums[2] = 5
+    	SuitStarts[3] = 8
+    	SuitNums[3] = 4
+	I have deck suit
+    Play : 
+    	ind = 8	 King of Heart
+    	remainInd Index: 8
+    	before Index: 7
+    	after Index: 9
+GetThirdPlayerCard:
+	Player = 1
+GetWinOrPassCard
+	Player = 1
+    GetRemainedCardsNum: 	Player = 1
+    	SuitStarts[0] = 0
+    	SuitNums[0] = 4
+    	SuitStarts[1] = 4
+    	SuitNums[1] = 2
+    	SuitStarts[2] = 6
+    	SuitNums[2] = 2
+    	SuitStarts[3] = 8
+    	SuitNums[3] = 4
+	I have deck suit
+    Play : 
+    	ind = 20	 Ace of Heart
+    	remainInd Index: 8
+    	before Index: 19
+    	after Index: 21
+GetFourthPlayerCard:	Player = 2
+    GetRemainedCardsNum: 	Player = 2
+    	SuitStarts[0] = 0
+    	SuitNums[0] = 5
+    	SuitStarts[1] = 5
+    	SuitNums[1] = 5
+    	SuitStarts[2] = 10
+    	SuitNums[2] = 1
+    	SuitStarts[3] = 11
+    	SuitNums[3] = 1
+	I have deck suit
+    Play : 
+    	ind = 35	 Four of Heart
+    	remainInd Index: 11
+    	before Index: 34
+    	after Index: -1
+CollectCenter : 
+	Deck = 0
+NewDeck : 
+	Deck = 1
+    GetFirstPlayerCard:
+    	Player = 1
+        GetRemainedCardsNum: 	Player = 1
+        	SuitStarts[0] = 0
+        	SuitNums[0] = 4
+        	SuitStarts[1] = 4
+        	SuitNums[1] = 2
+        	SuitStarts[2] = 6
+        	SuitNums[2] = 2
+        	SuitStarts[3] = 8
+        	SuitNums[3] = 3
+    I search best up card
+        Play : 
+        	ind = 12	 Ace of Club
+        	remainInd Index: 0
+        	before Index: -1
+        	after Index: 13
+    GetSecondPlayerCard:
+    	Player = 2
+    GetWinOrPassCard
+    	Player = 2
+        GetRemainedCardsNum: 	Player = 2
+        	SuitStarts[0] = 0
+        	SuitNums[0] = 5
+        	SuitStarts[1] = 5
+        	SuitNums[1] = 5
+        	SuitStarts[2] = 10
+        	SuitNums[2] = 1
+        	SuitNums[3] = 0
+    	I have deck suit
+    	I haven't good deck suit
+        Play : 
+        	ind = 28	 Four of Club
+        	remainInd Index: 4
+        	before Index: 27
+        	after Index: 29
+    Mouse Down
+    	deckNum1
+        Play : 
+        	ind = 36	 Eight of Club
+        	remainInd Index: 0
+        	before Index: -1
+        	after Index: 37
+    GetFourthPlayerCard:	Player = 0
+        GetRemainedCardsNum: 	Player = 0
+        	SuitStarts[0] = 0
+        	SuitNums[0] = 1
+        	SuitStarts[1] = 1
+        	SuitNums[1] = 2
+        	SuitStarts[2] = 3
+        	SuitNums[2] = 5
+        	SuitStarts[3] = 8
+        	SuitNums[3] = 3
+    	I have deck suit
+        Play : 
+        	ind = 0	 Six of Club
+        	remainInd Index: 0
+        	before Index: -1
+        	after Index: 1
+    CollectCenter : 
+    	Deck = 1
+NewDeck : 
+	Deck = 2
+    GetFirstPlayerCard:
+    	Player = 1
+        GetRemainedCardsNum: 	Player = 1
+        	SuitStarts[0] = 0
+        	SuitNums[0] = 3
+        	SuitStarts[1] = 3
+        	SuitNums[1] = 2
+        	SuitStarts[2] = 5
+        	SuitNums[2] = 2
+        	SuitStarts[3] = 7
+        	SuitNums[3] = 3
+    I search best up card
+        Play : 
+        	ind = 13	 King of Club
+        	remainInd Index: 0
+        	before Index: -1
+        	after Index: 14
+    GetSecondPlayerCard:
+    	Player = 2
+    GetWinOrPassCard
+    	Player = 2
+        GetRemainedCardsNum: 	Player = 2
+        	SuitStarts[0] = 0
+        	SuitNums[0] = 4
+        	SuitStarts[1] = 4
+        	SuitNums[1] = 5
+        	SuitStarts[2] = 9
+        	SuitNums[2] = 1
+        	SuitNums[3] = 0
+    	I have deck suit
+    	I haven't good deck suit
+        Play : 
+        	ind = 26	 Nine of Club
+        	remainInd Index: 2
+        	before Index: 25
+        	after Index: 27
+    Mouse Down
+    	deckNum2
+        GetRemainedCardsNum: 	Player = 3
+        	SuitNums[0] = 0
+        	SuitStarts[1] = 0
+        	SuitNums[1] = 3
+        	SuitStarts[2] = 3
+        	SuitNums[2] = 4
+        	SuitStarts[3] = 7
+        	SuitNums[3] = 3
+        Play : 
+        	ind = 40	 King of Diamond
+        	remainInd Index: 3
+        	before Index: 39
+        	after Index: 41
+    GetFourthPlayerCard:	Player = 0
+        GetRemainedCardsNum: 	Player = 0
+        	SuitNums[0] = 0
+        	SuitStarts[1] = 0
+        	SuitNums[1] = 2
+        	SuitStarts[2] = 2
+        	SuitNums[2] = 5
+        	SuitStarts[3] = 7
+        	SuitNums[3] = 3
+    	I haven't deck suit
+    	I have trump
+    	GetBadCard:
+        Play : 
+        	ind = 2	 Nine of Spade
+        	remainInd Index: 1
+        	before Index: 1
+        	after Index: 3
+    CollectCenter : 
+    	Deck = 2
+NewDeck : 
+	Deck = 3
+    GetFirstPlayerCard:
+    	Player = 1
+        GetRemainedCardsNum: 	Player = 1
+        	SuitStarts[0] = 0
+        	SuitNums[0] = 2
+        	SuitStarts[1] = 2
+        	SuitNums[1] = 2
+        	SuitStarts[2] = 4
+        	SuitNums[2] = 2
+        	SuitStarts[3] = 6
+        	SuitNums[3] = 3
+    I search best up card
+    I can't find complete best up card
+    GetFriendCutCard:
+    	Player = 1
+    	Possible friend have trump:
+    		Friend cut or pass Club
+        GetRemainedCardsNum: 	Player = 1
+        	SuitStarts[0] = 0
+        	SuitNums[0] = 2
+        	SuitStarts[1] = 2
+        	SuitNums[1] = 2
+        	SuitStarts[2] = 4
+        	SuitNums[2] = 2
+        	SuitStarts[3] = 6
+        	SuitNums[3] = 3
+        Play : 
+        	ind = 18	 Six of Diamond
+        	remainInd Index: 4
+        	before Index: 17
+        	after Index: 19
+    GetSecondPlayerCard:
+    	Player = 2
+    GetWinOrPassCard
+    	Player = 2
+        GetRemainedCardsNum: 	Player = 2
+        	SuitStarts[0] = 0
+        	SuitNums[0] = 3
+        	SuitStarts[1] = 3
+        	SuitNums[1] = 5
+        	SuitStarts[2] = 8
+        	SuitNums[2] = 1
+        	SuitNums[3] = 0
+    	I have deck suit
+        Play : 
+        	ind = 34	 Ace of Diamond
+        	remainInd Index: 8
+        	before Index: 33
+        	after Index: -1
+    Mouse Down
+    	deckNum3
+        Play : 
+        	ind = 41	 Eight of Diamond
+        	remainInd Index: 3
+        	before Index: 39
+        	after Index: 42
+    GetFourthPlayerCard:	Player = 0
+        GetRemainedCardsNum: 	Player = 0
+        	SuitNums[0] = 0
+        	SuitStarts[1] = 0
+        	SuitNums[1] = 1
+        	SuitStarts[2] = 1
+        	SuitNums[2] = 5
+        	SuitStarts[3] = 6
+        	SuitNums[3] = 3
+    GetFatCard
+    	Player = 0
+        GetRemainedCardsNum: 	Player = 0
+        	SuitNums[0] = 0
+        	SuitStarts[1] = 0
+        	SuitNums[1] = 1
+        	SuitStarts[2] = 1
+        	SuitNums[2] = 5
+        	SuitStarts[3] = 6
+        	SuitNums[3] = 3
+    	I have deck suit
+        Play : 
+        	ind = 5	 Ten of Diamond
+        	remainInd Index: 3
+        	before Index: 4
+        	after Index: 6
+    CollectCenter : 
+    	Deck = 3
+NewDeck : 
+	Deck = 4
+    GetFirstPlayerCard:
+    	Player = 2
+        GetRemainedCardsNum: 	Player = 2
+        	SuitStarts[0] = 0
+        	SuitNums[0] = 3
+        	SuitStarts[1] = 3
+        	SuitNums[1] = 5
+        	SuitNums[2] = 0
+        	SuitNums[3] = 0
+    I search best up card
+        Play : 
+        	ind = 24	 Queen of Club
+        	remainInd Index: 0
+        	before Index: -1
+        	after Index: 25
+    Mouse Down
+    	deckNum4
+        GetRemainedCardsNum: 	Player = 3
+        	SuitNums[0] = 0
+        	SuitStarts[1] = 0
+        	SuitNums[1] = 3
+        	SuitStarts[2] = 3
+        	SuitNums[2] = 2
+        	SuitStarts[3] = 5
+        	SuitNums[3] = 3
+        Play : 
+        	ind = 37	 Queen of Spade
+        	remainInd Index: 0
+        	before Index: -1
+        	after Index: 38
+    GetThirdPlayerCard:
+    	Player = 0
+    GetFatCard
+    	Player = 0
+        GetRemainedCardsNum: 	Player = 0
+        	SuitNums[0] = 0
+        	SuitStarts[1] = 0
+        	SuitNums[1] = 1
+        	SuitStarts[2] = 1
+        	SuitNums[2] = 4
+        	SuitStarts[3] = 5
+        	SuitNums[3] = 3
+    	I haven't deck suit
+    	I haven't good trump card
+    	I haven't pass card
+    	GetBadCard:
+        Play : 
+        	ind = 11	 Seven of Heart
+        	remainInd Index: 7
+        	before Index: 10
+        	after Index: -1
+    GetFourthPlayerCard:	Player = 1
+        GetRemainedCardsNum: 	Player = 1
+        	SuitStarts[0] = 0
+        	SuitNums[0] = 2
+        	SuitStarts[1] = 2
+        	SuitNums[1] = 2
+        	SuitStarts[2] = 4
+        	SuitNums[2] = 1
+        	SuitStarts[3] = 5
+        	SuitNums[3] = 3
+    	I have deck suit
+        Play : 
+        	ind = 15	 Seven of Club
+        	remainInd Index: 1
+        	before Index: 14
+        	after Index: 16
+    CollectCenter : 
+    	Deck = 4
+NewDeck : 
+	Deck = 5
+    GetFirstPlayerCard:
+    	Player = 0
+        GetRemainedCardsNum: 	Player = 0
+        	SuitNums[0] = 0
+        	SuitStarts[1] = 0
+        	SuitNums[1] = 1
+        	SuitStarts[2] = 1
+        	SuitNums[2] = 4
+        	SuitStarts[3] = 5
+        	SuitNums[3] = 2
+    I search best up card
+        Play : 
+        	ind = 3	 Queen of Diamond
+        	remainInd Index: 1
+        	before Index: 1
+        	after Index: 4
+    GetSecondPlayerCard:
+    	Player = 1
+    GetWinOrPassCard
+    	Player = 1
+        GetRemainedCardsNum: 	Player = 1
+        	SuitStarts[0] = 0
+        	SuitNums[0] = 1
+        	SuitStarts[1] = 1
+        	SuitNums[1] = 2
+        	SuitStarts[2] = 3
+        	SuitNums[2] = 1
+        	SuitStarts[3] = 4
+        	SuitNums[3] = 3
+    	I have deck suit
+    	I haven't good deck suit
+        Play : 
+        	ind = 19	 Four of Diamond
+        	remainInd Index: 3
+        	before Index: 17
+        	after Index: 21
+    GetThirdPlayerCard:
+    	Player = 2
+    GetFatCard
+    	Player = 2
+        GetRemainedCardsNum: 	Player = 2
+        	SuitStarts[0] = 0
+        	SuitNums[0] = 2
+        	SuitStarts[1] = 2
+        	SuitNums[1] = 5
+        	SuitNums[2] = 0
+        	SuitNums[3] = 0
+    	I haven't deck suit
+        Play : 
+        	ind = 27	 Five of Club
+        	remainInd Index: 1
+        	before Index: 25
+        	after Index: 29
+    Mouse Down
+    	deckNum5
+        Play : 
+        	ind = 42	 Five of Diamond
+        	remainInd Index: 2
+        	before Index: 39
+        	after Index: 43
+    CollectCenter : 
+    	Deck = 5
+NewDeck : 
+	Deck = 6
+    GetFirstPlayerCard:
+    	Player = 0
+        GetRemainedCardsNum: 	Player = 0
+        	SuitNums[0] = 0
+        	SuitStarts[1] = 0
+        	SuitNums[1] = 1
+        	SuitStarts[2] = 1
+        	SuitNums[2] = 3
+        	SuitStarts[3] = 4
+        	SuitNums[3] = 2
+    I search best up card
+        Play : 
+        	ind = 4	 Jack of Diamond
+        	remainInd Index: 1
+        	before Index: 1
+        	after Index: 6
+    GetSecondPlayerCard:
+    	Player = 1
+    GetWinOrPassCard
+    	Player = 1
+        GetRemainedCardsNum: 	Player = 1
+        	SuitStarts[0] = 0
+        	SuitNums[0] = 1
+        	SuitStarts[1] = 1
+        	SuitNums[1] = 2
+        	SuitNums[2] = 0
+        	SuitStarts[3] = 3
+        	SuitNums[3] = 3
+    	I haven't deck suit
+        Play : 
+        	ind = 23	 Two of Heart
+        	remainInd Index: 5
+        	before Index: 22
+        	after Index: -1
+    GetThirdPlayerCard:
+    	Player = 2
+    GetWinOrPassCard
+    	Player = 2
+        GetRemainedCardsNum: 	Player = 2
+        	SuitStarts[0] = 0
+        	SuitNums[0] = 1
+        	SuitStarts[1] = 1
+        	SuitNums[1] = 5
+        	SuitNums[2] = 0
+        	SuitNums[3] = 0
+    	I haven't deck suit
+    	I haven't good trump card
+    	I haven't good pass card
+    	GetBadCard:
+        Play : 
+        	ind = 33	 Four of Spade
+        	remainInd Index: 5
+        	before Index: 32
+        	after Index: -1
+    Mouse Down
+    	deckNum6
+        Play : 
+        	ind = 43	 Three of Diamond
+        	remainInd Index: 2
+        	before Index: 39
+        	after Index: 44
+    CollectCenter : 
+    	Deck = 6
+NewDeck : 
+	Deck = 7
+    GetFirstPlayerCard:
+    	Player = 1
+        GetRemainedCardsNum: 	Player = 1
+        	SuitStarts[0] = 0
+        	SuitNums[0] = 1
+        	SuitStarts[1] = 1
+        	SuitNums[1] = 2
+        	SuitNums[2] = 0
+        	SuitStarts[3] = 3
+        	SuitNums[3] = 2
+    I search best up card
+    I can't find complete best up card
+    GetFriendCutCard:
+    	Player = 1
+    Frind Cut or passed card not found
+    I search feature cut card
+    I can't find feature cut card
+    I search feature up card
+    I can't find feature up card
+    	GetBadCard:
+        Play : 
+        	ind = 22	 Three of Heart
+        	remainInd Index: 4
+        	before Index: 21
+        	after Index: -1
+    GetSecondPlayerCard:
+    	Player = 2
+    GetWinOrPassCard
+    	Player = 2
+        GetRemainedCardsNum: 	Player = 2
+        	SuitStarts[0] = 0
+        	SuitNums[0] = 1
+        	SuitStarts[1] = 1
+        	SuitNums[1] = 4
+        	SuitNums[2] = 0
+        	SuitNums[3] = 0
+    	I haven't deck suit
+    	I haven't good trump card
+    	I haven't good pass card
+    	GetBadCard:
+        Play : 
+        	ind = 32	 Six of Spade
+        	remainInd Index: 4
+        	before Index: 31
+        	after Index: -1
+    Mouse Down
+    	deckNum7
+        Play : 
+        	ind = 46	 Eight of Heart
+        	remainInd Index: 4
+        	before Index: 45
+        	after Index: -1
+    GetFourthPlayerCard:	Player = 0
+        GetRemainedCardsNum: 	Player = 0
+        	SuitNums[0] = 0
+        	SuitStarts[1] = 0
+        	SuitNums[1] = 1
+        	SuitStarts[2] = 1
+        	SuitNums[2] = 2
+        	SuitStarts[3] = 3
+        	SuitNums[3] = 2
+    	I have deck suit
+        Play : 
+        	ind = 10	 Nine of Heart
+        	remainInd Index: 4
+        	before Index: 9
+        	after Index: -1
+    CollectCenter : 
+    	Deck = 7
+NewDeck : 
+	Deck = 8
+    GetFirstPlayerCard:
+    	Player = 0
+        GetRemainedCardsNum: 	Player = 0
+        	SuitNums[0] = 0
+        	SuitStarts[1] = 0
+        	SuitNums[1] = 1
+        	SuitStarts[2] = 1
+        	SuitNums[2] = 2
+        	SuitStarts[3] = 3
+        	SuitNums[3] = 1
+    I search best up card
+        Play : 
+        	ind = 6	 Nine of Diamond
+        	remainInd Index: 1
+        	before Index: 1
+        	after Index: 7
+    GetSecondPlayerCard:
+    	Player = 1
+    GetWinOrPassCard
+    	Player = 1
+        GetRemainedCardsNum: 	Player = 1
+        	SuitStarts[0] = 0
+        	SuitNums[0] = 1
+        	SuitStarts[1] = 1
+        	SuitNums[1] = 2
+        	SuitNums[2] = 0
+        	SuitStarts[3] = 3
+        	SuitNums[3] = 1
+    	I haven't deck suit
+        Play : 
+        	ind = 21	 Six of Heart
+        	remainInd Index: 3
+        	before Index: 17
+        	after Index: -1
+    GetThirdPlayerCard:
+    	Player = 2
+    GetWinOrPassCard
+    	Player = 2
+        GetRemainedCardsNum: 	Player = 2
+        	SuitStarts[0] = 0
+        	SuitNums[0] = 1
+        	SuitStarts[1] = 1
+        	SuitNums[1] = 3
+        	SuitNums[2] = 0
+        	SuitNums[3] = 0
+    	I haven't deck suit
+    	I haven't good trump card
+    	I haven't good pass card
+    	GetBadCard:
+        Play : 
+        	ind = 31	 Seven of Spade
+        	remainInd Index: 3
+        	before Index: 30
+        	after Index: -1
+    Mouse Down
+    	deckNum8
+        GetRemainedCardsNum: 	Player = 3
+        	SuitNums[0] = 0
+        	SuitStarts[1] = 0
+        	SuitNums[1] = 2
+        	SuitNums[2] = 0
+        	SuitStarts[3] = 2
+        	SuitNums[3] = 2
+        Play : 
+        	ind = 44	 Jack of Heart
+        	remainInd Index: 2
+        	before Index: 39
+        	after Index: 45
+    CollectCenter : 
+    	Deck = 8
+NewDeck : 
+	Deck = 9
+    Mouse Down
+    	deckNum9
+        Play : 
+        	ind = 39	 Two of Spade
+        	remainInd Index: 1
+        	before Index: 38
+        	after Index: 45
+    GetSecondPlayerCard:
+    	Player = 0
+    GetWinOrPassCard
+    	Player = 0
+        GetRemainedCardsNum: 	Player = 0
+        	SuitNums[0] = 0
+        	SuitStarts[1] = 0
+        	SuitNums[1] = 1
+        	SuitStarts[2] = 1
+        	SuitNums[2] = 1
+        	SuitStarts[3] = 2
+        	SuitNums[3] = 1
+    	I have deck suit
+        Play : 
+        	ind = 1	 King of Spade
+        	remainInd Index: 0
+        	before Index: -1
+        	after Index: 7
+    GetThirdPlayerCard:
+    	Player = 1
+    GetWinOrPassCard
+    	Player = 1
+        GetRemainedCardsNum: 	Player = 1
+        	SuitStarts[0] = 0
+        	SuitNums[0] = 1
+        	SuitStarts[1] = 1
+        	SuitNums[1] = 2
+        	SuitNums[2] = 0
+        	SuitNums[3] = 0
+    	I have deck suit
+    	I haven't good deck suit
+        Play : 
+        	ind = 17	 Three of Spade
+        	remainInd Index: 2
+        	before Index: 16
+        	after Index: -1
+    GetFourthPlayerCard:	Player = 2
+        GetRemainedCardsNum: 	Player = 2
+        	SuitStarts[0] = 0
+        	SuitNums[0] = 1
+        	SuitStarts[1] = 1
+        	SuitNums[1] = 2
+        	SuitNums[2] = 0
+        	SuitNums[3] = 0
+    GetFatCard
+    	Player = 2
+        GetRemainedCardsNum: 	Player = 2
+        	SuitStarts[0] = 0
+        	SuitNums[0] = 1
+        	SuitStarts[1] = 1
+        	SuitNums[1] = 2
+        	SuitNums[2] = 0
+        	SuitNums[3] = 0
+    	I have deck suit
+    	I haven't good deck suit
+        Play : 
+        	ind = 30	 Jack of Spade
+        	remainInd Index: 2
+        	before Index: 29
+        	after Index: -1
+    CollectCenter : 
+    	Deck = 9
+NewDeck : 
+	Deck = 10
+    GetFirstPlayerCard:
+    	Player = 0
+        GetRemainedCardsNum: 	Player = 0
+        	SuitNums[0] = 0
+        	SuitNums[1] = 0
+        	SuitStarts[2] = 0
+        	SuitNums[2] = 1
+        	SuitStarts[3] = 1
+        	SuitNums[3] = 1
+    I search best up card
+        Play : 
+        	ind = 7	 Two of Diamond
+        	remainInd Index: 0
+        	before Index: -1
+        	after Index: 9
+    GetSecondPlayerCard:
+    	Player = 1
+    GetWinOrPassCard
+    	Player = 1
+        GetRemainedCardsNum: 	Player = 1
+        	SuitStarts[0] = 0
+        	SuitNums[0] = 1
+        	SuitStarts[1] = 1
+        	SuitNums[1] = 1
+        	SuitNums[2] = 0
+        	SuitNums[3] = 0
+    	I haven't deck suit
+    	I haven't good trump card
+    	I haven't good pass card
+    	GetBadCard:
+        Play : 
+        	ind = 16	 Ten of Spade
+        	remainInd Index: 1
+        	before Index: 14
+        	after Index: -1
+    GetThirdPlayerCard:
+    	Player = 2
+    GetFatCard
+    	Player = 2
+        GetRemainedCardsNum: 	Player = 2
+        	SuitStarts[0] = 0
+        	SuitNums[0] = 1
+        	SuitStarts[1] = 1
+        	SuitNums[1] = 1
+        	SuitNums[2] = 0
+        	SuitNums[3] = 0
+    	I haven't deck suit
+    	I haven't good trump card
+    	I haven't pass card
+    	GetBadCard:
+        Play : 
+        	ind = 29	 Ace of Spade
+        	remainInd Index: 1
+        	before Index: 25
+        	after Index: -1
+    Mouse Down
+    	deckNum10
+    	selected card was played <> ind = 46
+        GetRemainedCardsNum: 	Player = 3
+        	SuitNums[0] = 0
+        	SuitStarts[1] = 0
+        	SuitNums[1] = 1
+        	SuitNums[2] = 0
+        	SuitStarts[3] = 1
+        	SuitNums[3] = 1
+        Play : 
+        	ind = 45	 Ten of Heart
+        	remainInd Index: 1
+        	before Index: 38
+        	after Index: -1
+    CollectCenter : 
+    	Deck = 10
+NewDeck : 
+	Deck = 11
+    Mouse Down
+    	deckNum11
+    	selected card was played <> ind = 39
+        Play : 
+        	ind = 38	 Eight of Spade
+        	remainInd Index: 0
+        	before Index: -1
+        	after Index: -1
+    GetSecondPlayerCard:
+    	Player = 0
+    GetWinOrPassCard
+    	Player = 0
+        GetRemainedCardsNum: 	Player = 0
+        	SuitNums[0] = 0
+        	SuitNums[1] = 0
+        	SuitNums[2] = 0
+        	SuitStarts[3] = 0
+        	SuitNums[3] = 1
+    	I haven't deck suit
+    	I haven't good trump card
+    	I haven't good pass card
+    	GetBadCard:
+        Play : 
+        	ind = 9	 Queen of Heart
+        	remainInd Index: 0
+        	before Index: -1
+        	after Index: -1
+    GetThirdPlayerCard:
+    	Player = 1
+    GetWinOrPassCard
+    	Player = 1
+        GetRemainedCardsNum: 	Player = 1
+        	SuitStarts[0] = 0
+        	SuitNums[0] = 1
+        	SuitNums[1] = 0
+        	SuitNums[2] = 0
+        	SuitNums[3] = 0
+    	I haven't deck suit
+    	I haven't good trump card
+    	I haven't good pass card
+    	GetBadCard:
+        Play : 
+        	ind = 14	 Ten of Club
+        	remainInd Index: 0
+        	before Index: -1
+        	after Index: -1
+    GetFourthPlayerCard:	Player = 2
+        GetRemainedCardsNum: 	Player = 2
+        	SuitStarts[0] = 0
+        	SuitNums[0] = 1
+        	SuitNums[1] = 0
+        	SuitNums[2] = 0
+        	SuitNums[3] = 0
+    GetFatCard
+    	Player = 2
+        GetRemainedCardsNum: 	Player = 2
+        	SuitStarts[0] = 0
+        	SuitNums[0] = 1
+        	SuitNums[1] = 0
+        	SuitNums[2] = 0
+        	SuitNums[3] = 0
+    	I haven't deck suit
+    	I haven't good trump card
+    	I haven't pass card
+    	GetBadCard:
+        Play : 
+        	ind = 25	 Jack of Club
+        	remainInd Index: 0
+        	before Index: -1
+        	after Index: -1
+    CollectCenter : 
+    	Deck = 11
+    ===============NewPeriod==============
+    Player0 MaxScore is: 45
+    Player0 Maxfigure is: 25
+
+    Player1 MaxScore is: 28
+    Player1 Maxfigure is: 15
+
+    Player2 MaxScore is: 21
+    Player2 Maxfigure is: 15
+
+    CalculateRecords
+        Sum For Computer = 70
+        Sum For User = -125
+    Prefigure_OK
+    	prefigurePlayer = 3
+    	prefigureValue = 130
+    DrawDownCard
+    DrawDownCard
+    Mouse Down
+    Mouse Down
+    	deckNum0
+        Play : 
+        	ind = 40	 Ace of Diamond
+        	remainInd Index: 4
+        	before Index: 39
+        	after Index: 41
+    GetSecondPlayerCard:
+    	Player = 0
+    GetWinOrPassCard
+    	Player = 0
+        GetRemainedCardsNum: 	Player = 0
+        	SuitStarts[0] = 0
+        	SuitNums[0] = 2
+        	SuitStarts[1] = 2
+        	SuitNums[1] = 2
+        	SuitStarts[2] = 4
+        	SuitNums[2] = 5
+        	SuitStarts[3] = 9
+        	SuitNums[3] = 3
+    	I have deck suit
+    	I haven't good deck suit
+        Play : 
+        	ind = 8	 Two of Diamond
+        	remainInd Index: 8
+        	before Index: 7
+        	after Index: 9
+    GetThirdPlayerCard:
+    	Player = 1
+    GetFatCard
+    	Player = 1
+        GetRemainedCardsNum: 	Player = 1
+        	SuitStarts[0] = 0
+        	SuitNums[0] = 5
+        	SuitStarts[1] = 5
+        	SuitNums[1] = 3
+        	SuitStarts[2] = 8
+        	SuitNums[2] = 2
+        	SuitStarts[3] = 10
+        	SuitNums[3] = 2
+    	I have deck suit
+    	I haven't good deck suit
+        Play : 
+        	ind = 21	 Three of Diamond
+        	remainInd Index: 9
+        	before Index: 20
+        	after Index: 22
+    GetFourthPlayerCard:	Player = 2
+        GetRemainedCardsNum: 	Player = 2
+        	SuitStarts[0] = 0
+        	SuitNums[0] = 4
+        	SuitStarts[1] = 4
+        	SuitNums[1] = 2
+        	SuitStarts[2] = 6
+        	SuitNums[2] = 2
+        	SuitStarts[3] = 8
+        	SuitNums[3] = 4
+    	I have deck suit
+        Play : 
+        	ind = 31	 Four of Diamond
+        	remainInd Index: 7
+        	before Index: 30
+        	after Index: 32
+    CollectCenter : 
+    	Deck = 0
+NewDeck : 
+	Deck = 1
+    Mouse Down
+    	deckNum1
+        Play : 
+        	ind = 44	 Jack of Heart
+        	remainInd Index: 7
+        	before Index: 43
+        	after Index: 45
+    GetSecondPlayerCard:
+    	Player = 0
+    GetWinOrPassCard
+    	Player = 0
+        GetRemainedCardsNum: 	Player = 0
+        	SuitStarts[0] = 0
+        	SuitNums[0] = 2
+        	SuitStarts[1] = 2
+        	SuitNums[1] = 2
+        	SuitStarts[2] = 4
+        	SuitNums[2] = 4
+        	SuitStarts[3] = 8
+        	SuitNums[3] = 3
+    	I have deck suit
+        Play : 
+        	ind = 9	 King of Heart
+        	remainInd Index: 8
+        	before Index: 7
+        	after Index: 10
+    GetThirdPlayerCard:
+    	Player = 1
+    GetWinOrPassCard
+    	Player = 1
+        GetRemainedCardsNum: 	Player = 1
+        	SuitStarts[0] = 0
+        	SuitNums[0] = 5
+        	SuitStarts[1] = 5
+        	SuitNums[1] = 3
+        	SuitStarts[2] = 8
+        	SuitNums[2] = 1
+        	SuitStarts[3] = 9
+        	SuitNums[3] = 2
+    	I have deck suit
+    	I haven't good deck suit
+        Play : 
+        	ind = 23	 Two of Heart
+        	remainInd Index: 10
+        	before Index: 22
+        	after Index: -1
+    GetFourthPlayerCard:	Player = 2
+        GetRemainedCardsNum: 	Player = 2
+        	SuitStarts[0] = 0
+        	SuitNums[0] = 4
+        	SuitStarts[1] = 4
+        	SuitNums[1] = 2
+        	SuitStarts[2] = 6
+        	SuitNums[2] = 1
+        	SuitStarts[3] = 7
+        	SuitNums[3] = 4
+    GetFatCard
+    	Player = 2
+        GetRemainedCardsNum: 	Player = 2
+        	SuitStarts[0] = 0
+        	SuitNums[0] = 4
+        	SuitStarts[1] = 4
+        	SuitNums[1] = 2
+        	SuitStarts[2] = 6
+        	SuitNums[2] = 1
+        	SuitStarts[3] = 7
+        	SuitNums[3] = 4
+    	I have deck suit
+        Play : 
+        	ind = 35	 Five of Heart
+        	remainInd Index: 10
+        	before Index: 34
+        	after Index: -1
+    CollectCenter : 
+    	Deck = 1
+NewDeck : 
+	Deck = 2
+    GetFirstPlayerCard:
+    	Player = 0
+        GetRemainedCardsNum: 	Player = 0
+        	SuitStarts[0] = 0
+        	SuitNums[0] = 2
+        	SuitStarts[1] = 2
+        	SuitNums[1] = 2
+        	SuitStarts[2] = 4
+        	SuitNums[2] = 4
+        	SuitStarts[3] = 8
+        	SuitNums[3] = 2
+    I search best up card
+        Play : 
+        	ind = 2	 King of Spade
+        	remainInd Index: 2
+        	before Index: 1
+        	after Index: 3
+    GetSecondPlayerCard:
+    	Player = 1
+    GetWinOrPassCard
+    	Player = 1
+        GetRemainedCardsNum: 	Player = 1
+        	SuitStarts[0] = 0
+        	SuitNums[0] = 5
+        	SuitStarts[1] = 5
+        	SuitNums[1] = 3
+        	SuitStarts[2] = 8
+        	SuitNums[2] = 1
+        	SuitStarts[3] = 9
+        	SuitNums[3] = 1
+    	I have deck suit
+    	I haven't good deck suit
+        Play : 
+        	ind = 19	 Two of Spade
+        	remainInd Index: 7
+        	before Index: 18
+        	after Index: 20
+    GetThirdPlayerCard:
+    	Player = 2
+    GetFatCard
+    	Player = 2
+        GetRemainedCardsNum: 	Player = 2
+        	SuitStarts[0] = 0
+        	SuitNums[0] = 4
+        	SuitStarts[1] = 4
+        	SuitNums[1] = 2
+        	SuitStarts[2] = 6
+        	SuitNums[2] = 1
+        	SuitStarts[3] = 7
+        	SuitNums[3] = 3
+    	I have deck suit
+        Play : 
+        	ind = 28	 Ten of Spade
+        	remainInd Index: 4
+        	before Index: 27
+        	after Index: 29
+    Mouse Down
+    	deckNum2
+        Play : 
+        	ind = 39	 Five of Spade
+        	remainInd Index: 3
+        	before Index: 38
+        	after Index: 41
+    CollectCenter : 
+    	Deck = 2
+NewDeck : 
+	Deck = 3
+    GetFirstPlayerCard:
+    	Player = 0
+        GetRemainedCardsNum: 	Player = 0
+        	SuitStarts[0] = 0
+        	SuitNums[0] = 2
+        	SuitStarts[1] = 2
+        	SuitNums[1] = 1
+        	SuitStarts[2] = 3
+        	SuitNums[2] = 4
+        	SuitStarts[3] = 7
+        	SuitNums[3] = 2
+    I search best up card
+    I can't find complete best up card
+    GetFriendCutCard:
+    	Player = 0
+    	Possible friend have trump:
+    	Friend haven't cut or pass card
+    Frind Cut or passed card not found
+    I search feature cut card
+        Play : 
+        	ind = 1	 Six of Club
+        	remainInd Index: 1
+        	before Index: 0
+        	after Index: 3
+    GetSecondPlayerCard:
+    	Player = 1
+    GetWinOrPassCard
+    	Player = 1
+        GetRemainedCardsNum: 	Player = 1
+        	SuitStarts[0] = 0
+        	SuitNums[0] = 5
+        	SuitStarts[1] = 5
+        	SuitNums[1] = 2
+        	SuitStarts[2] = 7
+        	SuitNums[2] = 1
+        	SuitStarts[3] = 8
+        	SuitNums[3] = 1
+    	I have deck suit
+    	I haven't good deck suit
+        Play : 
+        	ind = 16	 Four of Club
+        	remainInd Index: 4
+        	before Index: 15
+        	after Index: 17
+    GetThirdPlayerCard:
+    	Player = 2
+    GetWinOrPassCard
+    	Player = 2
+        GetRemainedCardsNum: 	Player = 2
+        	SuitStarts[0] = 0
+        	SuitNums[0] = 4
+        	SuitStarts[1] = 4
+        	SuitNums[1] = 1
+        	SuitStarts[2] = 5
+        	SuitNums[2] = 1
+        	SuitStarts[3] = 6
+        	SuitNums[3] = 3
+    	I have deck suit
+        Play : 
+        	ind = 24	 Ace of Club
+        	remainInd Index: 0
+        	before Index: -1
+        	after Index: 25
+    Mouse Down
+    	deckNum3
+        GetRemainedCardsNum: 	Player = 3
+        	SuitStarts[0] = 0
+        	SuitNums[0] = 1
+        	SuitStarts[1] = 1
+        	SuitNums[1] = 2
+        	SuitStarts[2] = 3
+        	SuitNums[2] = 3
+        	SuitStarts[3] = 6
+        	SuitNums[3] = 3
+    Mouse Down
+    	deckNum3
+        Play : 
+        	ind = 36	 Three of Club
+        	remainInd Index: 0
+        	before Index: -1
+        	after Index: 37
+    CollectCenter : 
+    	Deck = 3
+NewDeck : 
+	Deck = 4
+    GetFirstPlayerCard:
+    	Player = 2
+        GetRemainedCardsNum: 	Player = 2
+        	SuitStarts[0] = 0
+        	SuitNums[0] = 3
+        	SuitStarts[1] = 3
+        	SuitNums[1] = 1
+        	SuitStarts[2] = 4
+        	SuitNums[2] = 1
+        	SuitStarts[3] = 5
+        	SuitNums[3] = 3
+    I search best up card
+        Play : 
+        	ind = 25	 King of Club
+        	remainInd Index: 0
+        	before Index: -1
+        	after Index: 26
+    Mouse Down
+    	deckNum4
+        GetRemainedCardsNum: 	Player = 3
+        	SuitNums[0] = 0
+        	SuitStarts[1] = 0
+        	SuitNums[1] = 2
+        	SuitStarts[2] = 2
+        	SuitNums[2] = 3
+        	SuitStarts[3] = 5
+        	SuitNums[3] = 3
+        Play : 
+        	ind = 45	 Ten of Heart
+        	remainInd Index: 5
+        	before Index: 43
+        	after Index: 46
+    GetThirdPlayerCard:
+    	Player = 0
+    GetFatCard
+    	Player = 0
+        GetRemainedCardsNum: 	Player = 0
+        	SuitStarts[0] = 0
+        	SuitNums[0] = 1
+        	SuitStarts[1] = 1
+        	SuitNums[1] = 1
+        	SuitStarts[2] = 2
+        	SuitNums[2] = 4
+        	SuitStarts[3] = 6
+        	SuitNums[3] = 2
+    	I have deck suit
+    	I haven't good deck suit
+        Play : 
+        	ind = 0	 Jack of Club
+        	remainInd Index: 0
+        	before Index: -1
+        	after Index: 3
+    GetFourthPlayerCard:	Player = 1
+        GetRemainedCardsNum: 	Player = 1
+        	SuitStarts[0] = 0
+        	SuitNums[0] = 4
+        	SuitStarts[1] = 4
+        	SuitNums[1] = 2
+        	SuitStarts[2] = 6
+        	SuitNums[2] = 1
+        	SuitStarts[3] = 7
+        	SuitNums[3] = 1
+    	I have deck suit
+        Play : 
+        	ind = 14	 Seven of Club
+        	remainInd Index: 2
+        	before Index: 13
+        	after Index: 15
+    CollectCenter : 
+    	Deck = 4
+NewDeck : 
+	Deck = 5
+    GetFirstPlayerCard:
+    	Player = 2
+        GetRemainedCardsNum: 	Player = 2
+        	SuitStarts[0] = 0
+        	SuitNums[0] = 2
+        	SuitStarts[1] = 2
+        	SuitNums[1] = 1
+        	SuitStarts[2] = 3
+        	SuitNums[2] = 1
+        	SuitStarts[3] = 4
+        	SuitNums[3] = 3
+    I search best up card
+        Play : 
+        	ind = 26	 Queen of Club
+        	remainInd Index: 0
+        	before Index: -1
+        	after Index: 27
+    Mouse Down
+    	deckNum5
+        GetRemainedCardsNum: 	Player = 3
+        	SuitNums[0] = 0
+        	SuitStarts[1] = 0
+        	SuitNums[1] = 2
+        	SuitStarts[2] = 2
+        	SuitNums[2] = 3
+        	SuitStarts[3] = 5
+        	SuitNums[3] = 2
+        Play : 
+        	ind = 46	 Eight of Heart
+        	remainInd Index: 5
+        	before Index: 43
+        	after Index: 47
+    GetThirdPlayerCard:
+    	Player = 0
+    GetFatCard
+    	Player = 0
+        GetRemainedCardsNum: 	Player = 0
+        	SuitNums[0] = 0
+        	SuitStarts[1] = 0
+        	SuitNums[1] = 1
+        	SuitStarts[2] = 1
+        	SuitNums[2] = 4
+        	SuitStarts[3] = 5
+        	SuitNums[3] = 2
+    	I haven't deck suit
+    	I haven't good trump card
+    	I haven't pass card
+    	GetBadCard:
+        Play : 
+        	ind = 7	 Nine of Diamond
+        	remainInd Index: 4
+        	before Index: 6
+        	after Index: 10
+    GetFourthPlayerCard:	Player = 1
+        GetRemainedCardsNum: 	Player = 1
+        	SuitStarts[0] = 0
+        	SuitNums[0] = 3
+        	SuitStarts[1] = 3
+        	SuitNums[1] = 2
+        	SuitStarts[2] = 5
+        	SuitNums[2] = 1
+        	SuitStarts[3] = 6
+        	SuitNums[3] = 1
+    	I have deck suit
+        Play : 
+        	ind = 13	 Eight of Club
+        	remainInd Index: 1
+        	before Index: 12
+        	after Index: 15
+    CollectCenter : 
+    	Deck = 5
+NewDeck : 
+	Deck = 6
+    GetFirstPlayerCard:
+    	Player = 0
+        GetRemainedCardsNum: 	Player = 0
+        	SuitNums[0] = 0
+        	SuitStarts[1] = 0
+        	SuitNums[1] = 1
+        	SuitStarts[2] = 1
+        	SuitNums[2] = 3
+        	SuitStarts[3] = 4
+        	SuitNums[3] = 2
+    I search best up card
+    I can't find complete best up card
+    GetFriendCutCard:
+    	Player = 0
+    	Possible friend have trump:
+    	Friend haven't cut or pass card
+    Frind Cut or passed card not found
+    I search feature cut card
+        Play : 
+        	ind = 11	 Nine of Heart
+        	remainInd Index: 5
+        	before Index: 10
+        	after Index: -1
+    GetSecondPlayerCard:
+    	Player = 1
+    GetWinOrPassCard
+    	Player = 1
+        GetRemainedCardsNum: 	Player = 1
+        	SuitStarts[0] = 0
+        	SuitNums[0] = 2
+        	SuitStarts[1] = 2
+        	SuitNums[1] = 2
+        	SuitStarts[2] = 4
+        	SuitNums[2] = 1
+        	SuitStarts[3] = 5
+        	SuitNums[3] = 1
+    	I have deck suit
+    	I haven't good deck suit
+        Play : 
+        	ind = 22	 Four of Heart
+        	remainInd Index: 5
+        	before Index: 20
+        	after Index: -1
+    GetThirdPlayerCard:
+    	Player = 2
+    GetWinOrPassCard
+    	Player = 2
+        GetRemainedCardsNum: 	Player = 2
+        	SuitStarts[0] = 0
+        	SuitNums[0] = 1
+        	SuitStarts[1] = 1
+        	SuitNums[1] = 1
+        	SuitStarts[2] = 2
+        	SuitNums[2] = 1
+        	SuitStarts[3] = 3
+        	SuitNums[3] = 3
+    	I have deck suit
+        Play : 
+        	ind = 32	 Ace of Heart
+        	remainInd Index: 3
+        	before Index: 30
+        	after Index: 33
+    Mouse Down
+    	deckNum6
+        Play : 
+        	ind = 47	 Three of Heart
+        	remainInd Index: 5
+        	before Index: 43
+        	after Index: -1
+    CollectCenter : 
+    	Deck = 6
+NewDeck : 
+	Deck = 7
+    GetFirstPlayerCard:
+    	Player = 2
+        GetRemainedCardsNum: 	Player = 2
+        	SuitStarts[0] = 0
+        	SuitNums[0] = 1
+        	SuitStarts[1] = 1
+        	SuitNums[1] = 1
+        	SuitStarts[2] = 2
+        	SuitNums[2] = 1
+        	SuitStarts[3] = 3
+        	SuitNums[3] = 2
+    I search best up card
+        Play : 
+        	ind = 27	 Ten of Club
+        	remainInd Index: 0
+        	before Index: -1
+        	after Index: 29
+    Mouse Down
+    	deckNum7
+    	selected card was played <> ind = 39
+        GetRemainedCardsNum: 	Player = 3
+        	SuitNums[0] = 0
+        	SuitStarts[1] = 0
+        	SuitNums[1] = 2
+        	SuitStarts[2] = 2
+        	SuitNums[2] = 3
+        	SuitNums[3] = 0
+        Play : 
+        	ind = 38	 Six of Spade
+        	remainInd Index: 1
+        	before Index: 37
+        	after Index: 41
+    GetThirdPlayerCard:
+    	Player = 0
+    GetFatCard
+    	Player = 0
+        GetRemainedCardsNum: 	Player = 0
+        	SuitNums[0] = 0
+        	SuitStarts[1] = 0
+        	SuitNums[1] = 1
+        	SuitStarts[2] = 1
+        	SuitNums[2] = 3
+        	SuitStarts[3] = 4
+        	SuitNums[3] = 1
+    	I haven't deck suit
+    	I haven't good trump card
+    	I haven't pass card
+    	GetBadCard:
+        Play : 
+        	ind = 6	 Ten of Diamond
+        	remainInd Index: 3
+        	before Index: 5
+        	after Index: 10
+    GetFourthPlayerCard:	Player = 1
+        GetRemainedCardsNum: 	Player = 1
+        	SuitStarts[0] = 0
+        	SuitNums[0] = 2
+        	SuitStarts[1] = 2
+        	SuitNums[1] = 2
+        	SuitStarts[2] = 4
+        	SuitNums[2] = 1
+        	SuitNums[3] = 0
+    	I have deck suit
+        Play : 
+        	ind = 12	 Nine of Club
+        	remainInd Index: 0
+        	before Index: -1
+        	after Index: 15
+    CollectCenter : 
+    	Deck = 7
+NewDeck : 
+	Deck = 8
+    GetFirstPlayerCard:
+    	Player = 0
+        GetRemainedCardsNum: 	Player = 0
+        	SuitNums[0] = 0
+        	SuitStarts[1] = 0
+        	SuitNums[1] = 1
+        	SuitStarts[2] = 1
+        	SuitNums[2] = 2
+        	SuitStarts[3] = 3
+        	SuitNums[3] = 1
+    I search best up card
+        Play : 
+        	ind = 10	 Queen of Heart
+        	remainInd Index: 3
+        	before Index: 5
+        	after Index: -1
+    GetSecondPlayerCard:
+    	Player = 1
+    GetWinOrPassCard
+    	Player = 1
+        GetRemainedCardsNum: 	Player = 1
+        	SuitStarts[0] = 0
+        	SuitNums[0] = 1
+        	SuitStarts[1] = 1
+        	SuitNums[1] = 2
+        	SuitStarts[2] = 3
+        	SuitNums[2] = 1
+        	SuitNums[3] = 0
+    	I haven't deck suit
+    	I haven't good trump card
+    	I haven't good pass card
+    	GetBadCard:
+        Play : 
+        	ind = 20	 King of Diamond
+        	remainInd Index: 3
+        	before Index: 18
+        	after Index: -1
+    GetThirdPlayerCard:
+    	Player = 2
+    GetWinOrPassCard
+    	Player = 2
+        GetRemainedCardsNum: 	Player = 2
+        	SuitNums[0] = 0
+        	SuitStarts[1] = 0
+        	SuitNums[1] = 1
+        	SuitStarts[2] = 1
+        	SuitNums[2] = 1
+        	SuitStarts[3] = 2
+        	SuitNums[3] = 2
+    	I have deck suit
+    	I haven't good deck suit
+        Play : 
+        	ind = 34	 Six of Heart
+        	remainInd Index: 3
+        	before Index: 33
+        	after Index: -1
+    Mouse Down
+    	deckNum8
+        GetRemainedCardsNum: 	Player = 3
+        	SuitNums[0] = 0
+        	SuitStarts[1] = 0
+        	SuitNums[1] = 1
+        	SuitStarts[2] = 1
+        	SuitNums[2] = 3
+        	SuitNums[3] = 0
+        Play : 
+        	ind = 41	 Eight of Diamond
+        	remainInd Index: 1
+        	before Index: 37
+        	after Index: 42
+    CollectCenter : 
+    	Deck = 8
+NewDeck : 
+	Deck = 9
+    GetFirstPlayerCard:
+    	Player = 1
+        GetRemainedCardsNum: 	Player = 1
+        	SuitStarts[0] = 0
+        	SuitNums[0] = 1
+        	SuitStarts[1] = 1
+        	SuitNums[1] = 2
+        	SuitNums[2] = 0
+        	SuitNums[3] = 0
+    I search best up card
+        Play : 
+        	ind = 15	 Five of Club
+        	remainInd Index: 0
+        	before Index: -1
+        	after Index: 17
+    GetSecondPlayerCard:
+    	Player = 2
+    GetWinOrPassCard
+    	Player = 2
+        GetRemainedCardsNum: 	Player = 2
+        	SuitNums[0] = 0
+        	SuitStarts[1] = 0
+        	SuitNums[1] = 1
+        	SuitStarts[2] = 1
+        	SuitNums[2] = 1
+        	SuitStarts[3] = 2
+        	SuitNums[3] = 1
+    	I haven't deck suit
+        Play : 
+        	ind = 30	 Six of Diamond
+        	remainInd Index: 1
+        	before Index: 29
+        	after Index: 33
+    Mouse Down
+    	deckNum9
+        GetRemainedCardsNum: 	Player = 3
+        	SuitNums[0] = 0
+        	SuitStarts[1] = 0
+        	SuitNums[1] = 1
+        	SuitStarts[2] = 1
+        	SuitNums[2] = 2
+        	SuitNums[3] = 0
+        Play : 
+        	ind = 37	 Seven of Spade
+        	remainInd Index: 0
+        	before Index: -1
+        	after Index: 42
+    GetFourthPlayerCard:	Player = 0
+        GetRemainedCardsNum: 	Player = 0
+        	SuitNums[0] = 0
+        	SuitStarts[1] = 0
+        	SuitNums[1] = 1
+        	SuitStarts[2] = 1
+        	SuitNums[2] = 2
+        	SuitNums[3] = 0
+    GetFatCard
+    	Player = 0
+        GetRemainedCardsNum: 	Player = 0
+        	SuitNums[0] = 0
+        	SuitStarts[1] = 0
+        	SuitNums[1] = 1
+        	SuitStarts[2] = 1
+        	SuitNums[2] = 2
+        	SuitNums[3] = 0
+    	I haven't deck suit
+    	I haven't good trump card
+    	I haven't pass card
+    	GetBadCard:
+        Play : 
+        	ind = 5	 Jack of Diamond
+        	remainInd Index: 2
+        	before Index: 4
+        	after Index: -1
+    CollectCenter : 
+    	Deck = 9
+NewDeck : 
+	Deck = 10
+    GetFirstPlayerCard:
+    	Player = 0
+        GetRemainedCardsNum: 	Player = 0
+        	SuitNums[0] = 0
+        	SuitStarts[1] = 0
+        	SuitNums[1] = 1
+        	SuitStarts[2] = 1
+        	SuitNums[2] = 1
+        	SuitNums[3] = 0
+    I search best up card
+    I can't find complete best up card
+    GetFriendCutCard:
+    	Player = 0
+    	Possible friend have trump:
+    		Friend cut or pass Club
+        GetRemainedCardsNum: 	Player = 0
+        	SuitNums[0] = 0
+        	SuitStarts[1] = 0
+        	SuitNums[1] = 1
+        	SuitStarts[2] = 1
+        	SuitNums[2] = 1
+        	SuitNums[3] = 0
+    	Friend haven't cut or pass card
+    Frind Cut or passed card not found
+        Play : 
+        	ind = 4	 Queen of Diamond
+        	remainInd Index: 1
+        	before Index: 3
+        	after Index: -1
+    GetSecondPlayerCard:
+    	Player = 1
+    GetWinOrPassCard
+    	Player = 1
+        GetRemainedCardsNum: 	Player = 1
+        	SuitNums[0] = 0
+        	SuitStarts[1] = 0
+        	SuitNums[1] = 2
+        	SuitNums[2] = 0
+        	SuitNums[3] = 0
+    	I haven't deck suit
+    	I haven't good trump card
+    	I haven't good pass card
+    	GetBadCard:
+        Play : 
+        	ind = 18	 Eight of Spade
+        	remainInd Index: 1
+        	before Index: 17
+        	after Index: -1
+    GetThirdPlayerCard:
+    	Player = 2
+    GetFatCard
+    	Player = 2
+        GetRemainedCardsNum: 	Player = 2
+        	SuitNums[0] = 0
+        	SuitStarts[1] = 0
+        	SuitNums[1] = 1
+        	SuitNums[2] = 0
+        	SuitStarts[3] = 1
+        	SuitNums[3] = 1
+    	I haven't deck suit
+    	I haven't good trump card
+        Play : 
+        	ind = 29	 Three of Spade
+        	remainInd Index: 0
+        	before Index: -1
+        	after Index: 33
+    Mouse Down
+    	deckNum10
+        Play : 
+        	ind = 42	 Seven of Diamond
+        	remainInd Index: 0
+        	before Index: -1
+        	after Index: 43
+    CollectCenter : 
+    	Deck = 10
+NewDeck : 
+	Deck = 11
+    GetFirstPlayerCard:
+    	Player = 0
+        GetRemainedCardsNum: 	Player = 0
+        	SuitNums[0] = 0
+        	SuitStarts[1] = 0
+        	SuitNums[1] = 1
+        	SuitNums[2] = 0
+        	SuitNums[3] = 0
+    I search best up card
+    I can't find complete best up card
+    GetFriendCutCard:
+    	Player = 0
+    Frind Cut or passed card not found
+    I search feature cut card
+        Play : 
+        	ind = 3	 Nine of Spade
+        	remainInd Index: 0
+        	before Index: -1
+        	after Index: -1
+    GetSecondPlayerCard:
+    	Player = 1
+    GetWinOrPassCard
+    	Player = 1
+        GetRemainedCardsNum: 	Player = 1
+        	SuitNums[0] = 0
+        	SuitStarts[1] = 0
+        	SuitNums[1] = 1
+        	SuitNums[2] = 0
+        	SuitNums[3] = 0
+    	I have deck suit
+        Play : 
+        	ind = 17	 Queen of Spade
+        	remainInd Index: 0
+        	before Index: -1
+        	after Index: -1
+    GetThirdPlayerCard:
+    	Player = 2
+    GetWinOrPassCard
+    	Player = 2
+        GetRemainedCardsNum: 	Player = 2
+        	SuitNums[0] = 0
+        	SuitNums[1] = 0
+        	SuitNums[2] = 0
+        	SuitStarts[3] = 0
+        	SuitNums[3] = 1
+    	I haven't deck suit
+    	I haven't good trump card
+    	I haven't good pass card
+    	GetBadCard:
+        Play : 
+        	ind = 33	 Seven of Heart
+        	remainInd Index: 0
+        	before Index: -1
+        	after Index: -1
+    Mouse Down
+    	deckNum11
+    	selected card was played <> ind = 44
+        GetRemainedCardsNum: 	Player = 3
+        	SuitNums[0] = 0
+        	SuitNums[1] = 0
+        	SuitStarts[2] = 0
+        	SuitNums[2] = 1
+        	SuitNums[3] = 0
+        Play : 
+        	ind = 43	 Five of Diamond
+        	remainInd Index: 0
+        	before Index: -1
+        	after Index: -1
+    CollectCenter : 
+    	Deck = 11
+    ===============NewPeriod==============
+    Player0 MaxScore is: 36
+    Player0 Maxfigure is: 20
+
+    Player1 MaxScore is: 41
+    Player1 Maxfigure is: 25
+
+    Player2 MaxScore is: 49
+    Player2 Maxfigure is: 25
+
+    CalculateRecords
+        Sum For Computer = 120
+        Sum For User = -130

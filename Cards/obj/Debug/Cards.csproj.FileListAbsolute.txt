@@ -1,0 +1,6 @@
+D:\TFS\MyFirstProject\CardOfHeartGame\Cards\bin\Debug\Cards.dll
+D:\TFS\MyFirstProject\CardOfHeartGame\Cards\bin\Debug\Cards.pdb
+D:\TFS\MyFirstProject\CardOfHeartGame\Cards\obj\Debug\Cards.CardImages.resources
+D:\TFS\MyFirstProject\CardOfHeartGame\Cards\obj\Debug\Cards.csproj.GenerateResource.Cache
+D:\TFS\MyFirstProject\CardOfHeartGame\Cards\obj\Debug\Cards.dll
+D:\TFS\MyFirstProject\CardOfHeartGame\Cards\obj\Debug\Cards.pdb
