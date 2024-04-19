@@ -1,4 +1,4 @@
-namespace Hearts_OOP3
+namespace HEARTS
 {
     internal static class Program
     {

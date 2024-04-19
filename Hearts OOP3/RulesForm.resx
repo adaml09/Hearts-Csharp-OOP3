@@ -117,19 +117,23 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="toolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="toolStripDropDownButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAEKSURBVEhL3ZG9DsFQHMXvczDZvIOtXsHObuhqkViI3Quw
-        6CYmNoMYJJ0NBiFFIoIytOuf0+TeXP3yde+iyS+3OcP53Z4y3/dJJ4HAsiwyTVMp6BQCBIZhKAWdEcHV
-        vSlBmeB82NFy1KLluEWOPRC5MoHdMWhazwi4RJlALgf4EuT6BI+5kCsTrGddUY658E+QvyXYHq9UnRyC
-        U87f4aUApcXhnrI9Jzg/laQKFntXlHM+lSQK5psL5fvbp/JvJLGCQqmSWM5JkiCT84igXGtSrruKLQ0T
-        luAdmZxHBG37FFuWBC/j5XKOmX8WAH7rcI6ZMffPgjQwN2bXJgDo/COBTpjneQ2dML0PY3cISreGe8HM
-        qgAAAABJRU5ErkJggg==
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>Objective:
+The objective of Hearts remains the same: avoid taking hearts cards and the Queen of Spades.
+
+Gameplay:
+
+Passing: There's no passing in a two-player game. All players keep their cards.
+
+Leading: The player with the 2 of Clubs starts the first trick. In subsequent tricks, the winner of the previous trick leads.
+
+Following Suit: If possible, players must play a card of the same suit as the first card led. If they don't have cards in that suit, they can play any card.
+
+Scoring: At the end of each hand, players score points based on the cards they've collected. Each Heart card is worth 1 point, and the Queen of Spades is worth 13 points. The goal is to collect as few points as possible.
+
+Breaking Hearts: In the first trick of the game, players cannot lead with a Heart card or the Queen of Spades unless they have no other cards.
+
+Winning: The game continues until all cards have been played. The player with the fewest points at the end wins.
 </value>
   </data>
 </root>
