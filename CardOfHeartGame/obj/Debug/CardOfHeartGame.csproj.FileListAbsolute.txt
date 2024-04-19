@@ -1,0 +1,14 @@
+D:\TFS\MyFirstProject\CardOfHeartGame\CardOfHeartGame\obj\Debug\CardOfHeartGame.csprojResolveAssemblyReference.cache
+D:\TFS\MyFirstProject\CardOfHeartGame\CardOfHeartGame\obj\Debug\VIGNESH.PrefigureControl.resources
+D:\TFS\MyFirstProject\CardOfHeartGame\CardOfHeartGame\obj\Debug\VIGNESH.Game.HeartOfCardGame.resources
+D:\TFS\MyFirstProject\CardOfHeartGame\CardOfHeartGame\obj\Debug\CardOfHeartGame.Properties.Resources.resources
+D:\TFS\MyFirstProject\CardOfHeartGame\CardOfHeartGame\obj\Debug\CardOfHeartGame.csproj.GenerateResource.Cache
+D:\TFS\MyFirstProject\CardOfHeartGame\CardOfHeartGame\bin\Debug\CardOfHeartGame.exe.config
+D:\TFS\MyFirstProject\CardOfHeartGame\CardOfHeartGame\bin\Debug\CardOfHeartGame.exe
+D:\TFS\MyFirstProject\CardOfHeartGame\CardOfHeartGame\bin\Debug\CardOfHeartGame.pdb
+D:\TFS\MyFirstProject\CardOfHeartGame\CardOfHeartGame\bin\Debug\Cards.dll
+D:\TFS\MyFirstProject\CardOfHeartGame\CardOfHeartGame\bin\Debug\Cards.pdb
+D:\TFS\MyFirstProject\CardOfHeartGame\CardOfHeartGame\obj\Debug\CardOfHeartGame.exe
+D:\TFS\MyFirstProject\CardOfHeartGame\CardOfHeartGame\obj\Debug\CardOfHeartGame.pdb
+D:\TFS\MyFirstProject\CardOfHeartGame\CardOfHeartGame\obj\Debug\VIGNESH.Game.About.resources
+D:\TFS\MyFirstProject\CardOfHeartGame\CardOfHeartGame\obj\Debug\VIGNESH.Game.Scores.resources
