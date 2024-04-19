@@ -51,4 +51,18 @@ namespace Hearts_OOP3
             SetValue(value);
         }
     }
+
+    public class PlayingCard
+    {
+        public Card.Suit Suit { get; }
+        public int Value { get; }
+        public Image Image { get; }
+
+        public PlayingCard(Card.Suit suit, int value, Image image)
+        {
+            Suit = suit;
+            Value = value;
+            Image = image;
+        }
+    }
 }
