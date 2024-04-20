@@ -1,4 +1,7 @@
-﻿using System;
+﻿// Author: Adam LeBlanc
+// Date: 2024-04-19
+// Description: This is the card class which handles all the information about hte cards that are then held in the deck and displayed in the game.
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -52,17 +55,4 @@ namespace Hearts_OOP3
         }
     }
 
-    public class PlayingCard
-    {
-        public Card.Suit Suit { get; }
-        public int Value { get; }
-        public Image Image { get; }
-
-        public PlayingCard(Card.Suit suit, int value, Image image)
-        {
-            Suit = suit;
-            Value = value;
-            Image = image;
-        }
-    }
 }

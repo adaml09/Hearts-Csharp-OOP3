@@ -1,8 +1,12 @@
-﻿using System;
+﻿// Author : Shah Bano and Adam LeBlanc
+// Date: 2024-04-19
+// Description: This is the form1, it has the actual game layout, a toolstrip with game rules, about us, and also picking which game mode the player wants
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Printing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -76,7 +80,7 @@ namespace Hearts_OOP3
             // Instantiate Form2
             Form2 form2 = new Form2();
 
-           
+
 
             // Show Form2
             form2.Show();
@@ -87,6 +91,28 @@ namespace Hearts_OOP3
             Form3 form3 = new Form3();
 
             form3.Show();
+        }
+
+        private void minecraftToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            minecraftTheme minecraftTheme = new minecraftTheme();
+            minecraftTheme.Show();
+        }
+
+        private void spaceToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            SpaceTheme spaceTheme = new SpaceTheme();
+            spaceTheme.Show();
+        }
+
+        private void DealButton_Click(object sender, EventArgs e)
+        {
+           allCards.
+        }
+
+        private void PlayCardButton_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

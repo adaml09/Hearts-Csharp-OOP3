@@ -1,4 +1,7 @@
-﻿using System;
+﻿// Author: Adam LeBlanc
+// Date: 2024-04-19
+// Description: This is the deck class which is designed to hold the cards that are played in the game.
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,52 +9,6 @@ using System.Threading.Tasks;
 
 namespace Hearts_OOP3
 {
-    internal class Card
-    {
-        // Variables for values of the object
-        private string suit;
-        private int value;
-
-        // Default values to be used in the default constructor
-        private static string DEFAULT_SUIT = "Hearts";
-        private static int DEFAULT_VALUE = 1;
-
-        // Getters and setters
-        public string GetSuit()
-        {
-            return suit;
-        }
-
-        public int GetValue()
-        {
-            return value;
-        }
-
-        public void SetSuit(string suit)
-        {
-            this.suit = suit;
-        }
-
-        public void SetValue(int value)
-        {
-            this.value = value;
-        }
-
-        // Default constructor
-        public Card()
-        {
-            SetSuit(DEFAULT_SUIT);
-            SetValue(DEFAULT_VALUE);
-        }
-
-        // Parametrized constructor
-        public Card(string suit, int value)
-        {
-            SetSuit(suit);
-            SetValue(value);
-        }
-    }
-
     internal class Deck
     {
         // Array that is the deck of card objects
@@ -92,19 +49,23 @@ namespace Hearts_OOP3
                 i++;
             }
         }
-    }
 
-    public class PlayingCard
-    {
-        public Card.Suit Suit { get; }
-        public int Value { get; }
-        public Image Image { get; }
-
-        public PlayingCard(Card.Suit suit, int value, Image image)
+        // returns the top card in the deck as well as removing it from the array
+        public Card dealCard()
         {
-            Suit = suit;
-            Value = value;
-            Image = image;
+            Card drawnCard;
+
+            drawnCard = deck[0];
+
+            // converts the array to a list to remove the top element the switches it back
+            List<Card> cards = deck.ToList();
+            cards.RemoveAt(0);
+            deck = cards.ToArray();
+
+            return drawnCard;
+
         }
+
     }
+
 }

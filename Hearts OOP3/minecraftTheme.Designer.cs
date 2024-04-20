@@ -1,6 +1,6 @@
 ﻿namespace Hearts_OOP3
 {
-    partial class Form1
+    partial class minecraftTheme
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(minecraftTheme));
+            pictureBox1 = new PictureBox();
+            button1 = new Button();
+            button2 = new Button();
             toolStrip1 = new ToolStrip();
             toolStripTextBox1 = new ToolStripDropDownButton();
             howDoIWinToolStripMenuItem = new ToolStripMenuItem();
@@ -41,12 +44,43 @@
             paintingToolStripMenuItem = new ToolStripMenuItem();
             spaceToolStripMenuItem = new ToolStripMenuItem();
             minecraftToolStripMenuItem = new ToolStripMenuItem();
-            DealButton = new Button();
-            pictureBox1 = new PictureBox();
-            PlayCardButton = new Button();
-            toolStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            toolStrip1.SuspendLayout();
             SuspendLayout();
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(42, 114);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(125, 195);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 0;
+            pictureBox1.TabStop = false;
+            // 
+            // button1
+            // 
+            button1.BackColor = SystemColors.ActiveBorder;
+            button1.BackgroundImage = (Image)resources.GetObject("button1.BackgroundImage");
+            button1.ForeColor = SystemColors.ButtonHighlight;
+            button1.Location = new Point(42, 326);
+            button1.Name = "button1";
+            button1.Size = new Size(125, 29);
+            button1.TabIndex = 1;
+            button1.Text = "Deal Cards";
+            button1.UseVisualStyleBackColor = false;
+            // 
+            // button2
+            // 
+            button2.BackColor = SystemColors.ActiveBorder;
+            button2.BackgroundImage = (Image)resources.GetObject("button2.BackgroundImage");
+            button2.ForeColor = SystemColors.ButtonHighlight;
+            button2.Location = new Point(616, 389);
+            button2.Name = "button2";
+            button2.Size = new Size(125, 29);
+            button2.TabIndex = 2;
+            button2.Text = "Play Card";
+            button2.UseVisualStyleBackColor = false;
             // 
             // toolStrip1
             // 
@@ -55,7 +89,7 @@
             toolStrip1.Location = new Point(0, 0);
             toolStrip1.Name = "toolStrip1";
             toolStrip1.Size = new Size(800, 27);
-            toolStrip1.TabIndex = 0;
+            toolStrip1.TabIndex = 3;
             toolStrip1.Text = "toolStrip1";
             // 
             // toolStripTextBox1
@@ -71,14 +105,12 @@
             howDoIWinToolStripMenuItem.Name = "howDoIWinToolStripMenuItem";
             howDoIWinToolStripMenuItem.Size = new Size(187, 26);
             howDoIWinToolStripMenuItem.Text = "How do I win?";
-            howDoIWinToolStripMenuItem.Click += howDoIWinToolStripMenuItem_Click;
             // 
             // aboutUsToolStripMenuItem
             // 
             aboutUsToolStripMenuItem.Name = "aboutUsToolStripMenuItem";
             aboutUsToolStripMenuItem.Size = new Size(187, 26);
             aboutUsToolStripMenuItem.Text = "About Us";
-            aboutUsToolStripMenuItem.Click += aboutUsToolStripMenuItem_Click;
             // 
             // toolStripDropDownButton1
             // 
@@ -93,107 +125,75 @@
             // newGameToolStripMenuItem
             // 
             newGameToolStripMenuItem.Name = "newGameToolStripMenuItem";
-            newGameToolStripMenuItem.Size = new Size(224, 26);
+            newGameToolStripMenuItem.Size = new Size(221, 26);
             newGameToolStripMenuItem.Text = "New Game";
             // 
             // advancedAIVsYouToolStripMenuItem
             // 
             advancedAIVsYouToolStripMenuItem.Name = "advancedAIVsYouToolStripMenuItem";
-            advancedAIVsYouToolStripMenuItem.Size = new Size(224, 26);
+            advancedAIVsYouToolStripMenuItem.Size = new Size(221, 26);
             advancedAIVsYouToolStripMenuItem.Text = "Advanced AI vs You";
             // 
             // themeToolStripMenuItem
             // 
             themeToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { classicToolStripMenuItem, paintingToolStripMenuItem, spaceToolStripMenuItem, minecraftToolStripMenuItem });
             themeToolStripMenuItem.Name = "themeToolStripMenuItem";
-            themeToolStripMenuItem.Size = new Size(224, 26);
+            themeToolStripMenuItem.Size = new Size(221, 26);
             themeToolStripMenuItem.Text = "Theme";
             // 
             // classicToolStripMenuItem
             // 
             classicToolStripMenuItem.Name = "classicToolStripMenuItem";
-            classicToolStripMenuItem.Size = new Size(224, 26);
+            classicToolStripMenuItem.Size = new Size(155, 26);
             classicToolStripMenuItem.Text = "Classic";
             // 
             // paintingToolStripMenuItem
             // 
             paintingToolStripMenuItem.Name = "paintingToolStripMenuItem";
-            paintingToolStripMenuItem.Size = new Size(224, 26);
+            paintingToolStripMenuItem.Size = new Size(155, 26);
             paintingToolStripMenuItem.Text = "Painting";
             // 
             // spaceToolStripMenuItem
             // 
             spaceToolStripMenuItem.Name = "spaceToolStripMenuItem";
-            spaceToolStripMenuItem.Size = new Size(224, 26);
+            spaceToolStripMenuItem.Size = new Size(155, 26);
             spaceToolStripMenuItem.Text = "Space";
-            spaceToolStripMenuItem.Click += spaceToolStripMenuItem_Click;
             // 
             // minecraftToolStripMenuItem
             // 
             minecraftToolStripMenuItem.Name = "minecraftToolStripMenuItem";
-            minecraftToolStripMenuItem.Size = new Size(224, 26);
+            minecraftToolStripMenuItem.Size = new Size(155, 26);
             minecraftToolStripMenuItem.Text = "Minecraft";
-            minecraftToolStripMenuItem.Click += minecraftToolStripMenuItem_Click;
             // 
-            // DealButton
-            // 
-            DealButton.Location = new Point(47, 321);
-            DealButton.Name = "DealButton";
-            DealButton.Size = new Size(109, 29);
-            DealButton.TabIndex = 1;
-            DealButton.Text = "Deal";
-            DealButton.UseVisualStyleBackColor = true;
-            DealButton.Click += DealButton_Click;
-            // 
-            // pictureBox1
-            // 
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(47, 147);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(109, 147);
-            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox1.TabIndex = 2;
-            pictureBox1.TabStop = false;
-            // 
-            // PlayCardButton
-            // 
-            PlayCardButton.Location = new Point(664, 384);
-            PlayCardButton.Name = "PlayCardButton";
-            PlayCardButton.Size = new Size(94, 29);
-            PlayCardButton.TabIndex = 3;
-            PlayCardButton.Text = "Play Card";
-            PlayCardButton.UseVisualStyleBackColor = true;
-            PlayCardButton.Click += PlayCardButton_Click;
-            // 
-            // Form1
+            // minecraftTheme
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(800, 450);
-            Controls.Add(PlayCardButton);
-            Controls.Add(pictureBox1);
-            Controls.Add(DealButton);
             Controls.Add(toolStrip1);
-            Name = "Form1";
-            Text = "Form1";
-            Load += Form1_Load;
+            Controls.Add(button2);
+            Controls.Add(button1);
+            Controls.Add(pictureBox1);
+            Name = "minecraftTheme";
+            Text = "minecraftTheme";
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             toolStrip1.ResumeLayout(false);
             toolStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
+        private PictureBox pictureBox1;
+        private Button button1;
+        private Button button2;
         private ToolStrip toolStrip1;
         private ToolStripDropDownButton toolStripTextBox1;
         private ToolStripMenuItem howDoIWinToolStripMenuItem;
         private ToolStripMenuItem aboutUsToolStripMenuItem;
-        private Button DealButton;
-        private PictureBox pictureBox1;
-        private Button PlayCardButton;
         private ToolStripDropDownButton toolStripDropDownButton1;
         private ToolStripMenuItem newGameToolStripMenuItem;
         private ToolStripMenuItem advancedAIVsYouToolStripMenuItem;

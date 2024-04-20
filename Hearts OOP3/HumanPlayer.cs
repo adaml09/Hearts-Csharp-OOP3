@@ -1,4 +1,8 @@
-﻿using System;
+﻿// Author: Shah Bano and Adam LeBlanc
+// Date: 2024-04-19
+// Description: This class allows for the user to play the game when it is the players turn they can chose an action by interacting with the form
+// then this class will interact with the form to allow that action to play out in the game. 
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Numerics;

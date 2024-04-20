@@ -1,4 +1,7 @@
-﻿using System;
+﻿// Author: Shah Bano
+// Date: 2024-04-19
+// Description: This implementes a two-player hearts game. It deals cards, manages gameplay and determines the winner for the round
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Numerics;
@@ -20,7 +23,7 @@ namespace Hearts_OOP3
         public Game()
         {
 
-            deck = new Deck();
+            deck = new Deck(52);
             players = new List<Player>();
             players.Add(new HumanPlayer("Player 1")); // Create an instance of HumanPlayer
             players.Add(new HumanPlayer("Player 2")); // Create another instance of HumanPlayer
@@ -31,12 +34,13 @@ namespace Hearts_OOP3
 
         private void DealCardsToPlayers()
         {
-            int numCardsToDeal = deck.DeckSize / players.Count;
+            int deckSize = deck.GetDeckSize();
+            int numCardsToDeal = deckSize / players.Count;
             foreach (var player in players)
             {
                 for (int i = 0; i < numCardsToDeal; i++)
                 {
-                    Card dealtCard = deck.DealCard();
+                    Card dealtCard = deck.dealCard();
                     player.Hand.Add(dealtCard);
                 }
             }
@@ -65,7 +69,7 @@ namespace Hearts_OOP3
                 .OrderByDescending(card => card.Value)
                 .First();
 
-            if (winningCard.CardSuit == Card.Suit.Hearts)
+            if (winningCard.GetSuit == Card.set+.Hearts)
             {
                 bool otherHeartsPlayed = currentTrick.Any(card => card.CardSuit == Card.Suit.Hearts && card != winningCard);
                 if (!otherHeartsPlayed)

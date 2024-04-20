@@ -1,4 +1,7 @@
-﻿using System;
+﻿// Author: Shah Bano and Adam LeBlanc
+// Date: 2024-04-19
+// Description: AIPlayer. This class controlls the AIs behaviour. It inherits the Player class.
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Numerics;
@@ -10,22 +13,22 @@ namespace Hearts_OOP3
 {
     internal class AIPlayer : Player
     {
-        private List<PlayingCard> Trick; // Store the current trick
+        private List<Card> Trick; // Store the current trick
 
         public AIPlayer(string name) : base(name)
         {
-            Trick = new List<PlayingCard>();
+            Trick = new List<Card>();
         }
 
         public override Card SelectCardToPlay()
         {
             // Determine the leading suit based on the cards played in the current trick
-            Card.Suit leadingSuit = DetermineLeadingSuit();
+            String leadingSuit = DetermineLeadingSuit();
 
             // If the AI has cards of the leading suit, play the lowest card of that suit
             if (HasSuit(leadingSuit))
             {
-                PlayingCard selectedPlayingCard = GetLowestCardOfSuit(leadingSuit);
+                Card selectedPlayingCard = GetLowestCardOfSuit(leadingSuit);
                 Hand.Remove(selectedPlayingCard); // Remove the selected card from the AI's hand
                 return new Card((Card.Suit)selectedPlayingCard.Suit, selectedPlayingCard.Value); // Create a new Card object with the same suit and value
             }
@@ -42,19 +45,19 @@ namespace Hearts_OOP3
 
 
 
-        private Card.Suit DetermineLeadingSuit()
+        private String DetermineLeadingSuit()
         {
             // Check if it's the first play of the trick (i.e., if the trick is empty)
             if (TrickIsEmpty())
             {
                 // If it's the first play, return any suit or choose randomly
                 Random random = new Random();
-                return (Card.Suit)random.Next(Enum.GetValues(typeof(Card.Suit)).Length);
+                return (Card.GetSuit())random.Next(Enum.GetValues(typeof(Card.GetSuit())).Length);
             }
             else
             {
                 // Otherwise, return the suit of the first card played in the trick
-                return Trick.First().Suit;
+                return Trick.First().GetSuit();
             }
         }
 
@@ -70,11 +73,12 @@ namespace Hearts_OOP3
             return Hand.Any(card => card.Suit == suit);
         }
 
-        private PlayingCard GetLowestCardOfSuit(Card.Suit suit)
+        private Card GetLowestCardOfSuit(Card.Suit suit)
         {
             // Get the lowest card of the specified suit from the AI player's hand
             // This assumes that the AI player has at least one card of the specified suit
-            return Hand.Where(card => card.Suit == suit).OrderBy(card => card.Value).First();
+            // this ensures that the card played is of the correct suite does not matter if it is optimal value
+            return Hand.Where(card => card.Suit == suit);
         }
     }
 }

@@ -1,4 +1,7 @@
-﻿using System;
+﻿// Author: Shah Bano 
+// Date: 2024-04-19
+// Description: This abstract class includes players name,hand and collected cards. It allows different player strategeies.
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,6 +22,7 @@ namespace Hearts_OOP3
             CollectedCards = new List<Card>(); // Initialize CollectedCards list
         }
 
-        public abstract Card SelectCardToPlay();
+        public abstract Card SelectCardToPlay() {
+        }
     }
 }
